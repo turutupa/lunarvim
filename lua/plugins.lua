@@ -78,6 +78,12 @@ return require("packer").startup(function(use)
 
     -- Color
     use {"christianchiarulli/nvcode-color-schemes.vim", opt = true}
+    use {"sainnhe/everforest"}
+    use {"sainnhe/gruvbox-material"}
+    use {'Th3Whit3Wolf/space-nvim'}
+    use {'bluz71/vim-nightfly-guicolors'}
+    use {'jsit/toast.vim'}
+    use {'folke/tokyonight.nvim'}
 
     -- Icons
     use {"kyazdani42/nvim-web-devicons", opt = true}
